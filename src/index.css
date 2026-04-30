@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --beach-good: #00E676;
+  --beach-fair: #FFEB3B;
+  --beach-poor: #FF9800;
+  --beach-verypoor: #F44336;
+  --beach-extremely: #212121;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans HK', 'Noto Sans TC', system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Leaflet overrides for beach context */
+.leaflet-container {
+  font-family: 'Noto Sans HK', 'Noto Sans TC', system-ui, sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+}
+
+/* Beach grade chip — large touch target */
+.grade-chip {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-full font-bold text-sm min-w-[64px] min-h-[48px];
+  border: 3px solid currentColor;
+}
+
+/* Bottom sheet */
+.beach-bottom-sheet {
+  @apply fixed bottom-0 left-0 right-0 bg-white rounded-t-3xl shadow-2xl z-[1000];
+  max-height: 85vh;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+}
+
+.beach-bottom-sheet-handle {
+  @apply w-12 h-1.5 bg-gray-300 rounded-full mx-auto mt-3 mb-2;
+}
+
+/* Filter chips — big touch targets for wet/sandy hands */
+.filter-chip {
+  @apply flex items-center gap-2 px-4 py-3 rounded-xl font-medium text-sm select-none cursor-pointer;
+  @apply min-h-[56px] min-w-[56px];
+  @apply transition-all duration-150;
+  @apply border-2 border-transparent;
+}
+
+.filter-chip.active {
+  @apply border-current;
+  transform: scale(1.05);
+}
+
+/* Beach card in list */
+.beach-card {
+  @apply bg-white rounded-2xl p-4 shadow-lg mb-3;
+  min-height: 72px;
+}
+
+/* Map attribution — keep small */
+.leaflet-control-attribution {
+  font-size: 10px !important;
+}
