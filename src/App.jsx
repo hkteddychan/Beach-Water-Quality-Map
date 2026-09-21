@@ -268,7 +268,7 @@ export default function App() {
     setLoading(true)
     setError(null)
     try {
-      const res = await fetch('/beach_data.geojson')
+      const res = await fetch('beach_data.geojson')
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       const json = await res.json()
       setData(json)

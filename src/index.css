@@ -73,3 +73,19 @@ html, body, #root {
 .leaflet-control-attribution {
   font-size: 10px !important;
 }
+
+
+/* ===== Dark mode overrides (beach app) ===== */
+[data-theme="dark"] body,
+[data-theme="dark"] .bg-gray-50 { background-color: #0e1116; }
+[data-theme="dark"] .bg-white,
+[data-theme="dark"] .beach-card,
+[data-theme="dark"] .beach-bottom-sheet { background-color: #181d27; }
+[data-theme="dark"] .bg-gray-100 { background-color: #202634; }
+[data-theme="dark"] .text-gray-900 { color: #f2f4f8; }
+[data-theme="dark"] .text-gray-700,
+[data-theme="dark"] .text-gray-800 { color: #c7cdd8; }
+[data-theme="dark"] .text-gray-400,
+[data-theme="dark"] .text-gray-500,
+[data-theme="dark"] .text-gray-600 { color: #a9b1c0; }
+[data-theme="dark"] .grade-chip { border-color: currentColor; }

@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+// PWA: register service worker + theme toggle
+if (window.HKMap) {
+  window.HKMap.registerSW('sw.js');
+  window.HKMap.mountThemeButton(document.body);
+}
