@@ -2,79 +2,945 @@
   "type": "FeatureCollection",
   "metadata": {
     "source": "EPD Beach Water Quality RSS",
-    "updated": "2026-04-30T12:00:00Z",
-    "count": 5,
+    "updated": "2026-09-22T03:03:05.831052+00:00Z",
+    "count": 39,
     "version": "2.0"
   },
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.1719, 22.2497] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05583333333333,
+          22.364722222222223
+        ]
+      },
       "properties": {
-        "id": "a1b2c3d4",
-        "name_en": "Repulse Bay Beach",
-        "name_zh": "淺水灣泳灘",
-        "grade": 1,
-        "grade_label": { "en": "Good", "zh": "良好", "emoji": "🟢" },
-        "color": "#00E676",
-        "link": "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss",
-        "updated": "Thu, 30 Apr 2026 08:00:00 +0800"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.1950, 22.2364] },
-      "properties": {
-        "id": "b2c3d4e5",
-        "name_en": "Middle Bay Beach",
-        "name_zh": "中灣泳灘",
+        "id": "76dca86f",
+        "name_en": "Anglers' Beach",
+        "name_zh": "钓鱼翁泳滩",
         "grade": 2,
-        "grade_label": { "en": "Fair", "zh": "一般", "emoji": "🟡" },
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
         "color": "#FFEB3B",
-        "link": "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss",
-        "updated": "Thu, 30 Apr 2026 08:00:00 +0800"
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/ANG/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.2175, 22.2219] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08638888888889,
+          22.3675
+        ]
+      },
       "properties": {
-        "id": "c3d4e5f6",
-        "name_en": "South Bay Beach",
-        "name_zh": "南灣泳灘",
+        "id": "04664848",
+        "name_en": "Approach Beach",
+        "name_zh": "Approach Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/APP/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24694444444445,
+          22.24638888888889
+        ]
+      },
+      "properties": {
+        "id": "3810f807",
+        "name_en": "Big Wave Bay Beach",
+        "name_zh": "大浪湾泳滩",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/BW/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9563888888889,
+          22.372777777777777
+        ]
+      },
+      "properties": {
+        "id": "5466eeab",
+        "name_en": "Butterfly Beach",
+        "name_zh": "Butterfly Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/B/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98694444444445,
+          22.37361111111111
+        ]
+      },
+      "properties": {
+        "id": "eb5bd2c1",
+        "name_en": "Cafeteria New Beach",
+        "name_zh": "Cafeteria New Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/NC/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98333333333333,
+          22.375833333333333
+        ]
+      },
+      "properties": {
+        "id": "748fd14d",
+        "name_en": "Cafeteria Old Beach",
+        "name_zh": "Cafeteria Old Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/OC/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07444444444444,
+          22.3675
+        ]
+      },
+      "properties": {
+        "id": "11f76432",
+        "name_en": "Casam Beach",
+        "name_zh": "Casam Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CAS/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98,
+          22.379444444444445
+        ]
+      },
+      "properties": {
+        "id": "61beaead",
+        "name_en": "Castle Peak Beach",
+        "name_zh": "Castle Peak Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CP/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03083333333333,
+          22.209444444444443
+        ]
+      },
+      "properties": {
+        "id": "865127b8",
+        "name_en": "Cheung Chau Tung Wan Beach",
+        "name_zh": "Cheung Chau Tung Wan Beach",
         "grade": 1,
-        "grade_label": { "en": "Good", "zh": "良好", "emoji": "🟢" },
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
         "color": "#00E676",
-        "link": "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss",
-        "updated": "Thu, 30 Apr 2026 08:00:00 +0800"
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TW/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.1067, 22.3644] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20222222222222,
+          22.217777777777776
+        ]
+      },
       "properties": {
-        "id": "d4e5f6g7",
+        "id": "4dfa48d0",
+        "name_en": "Chung Hom Kok Beach",
+        "name_zh": "Chung Hom Kok Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CHK/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2911111111111,
+          22.291111111111114
+        ]
+      },
+      "properties": {
+        "id": "28132a7d",
         "name_en": "Clear Water Bay First Beach",
-        "name_zh": "清水灣第一灣泳灘",
+        "name_zh": "清水湾第一湾泳滩",
         "grade": 2,
-        "grade_label": { "en": "Fair", "zh": "一般", "emoji": "🟡" },
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
         "color": "#FFEB3B",
-        "link": "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss",
-        "updated": "Thu, 30 Apr 2026 08:00:00 +0800"
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CW1/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.2864, 22.2914] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28777777777778,
+          22.287222222222223
+        ]
+      },
       "properties": {
-        "id": "e5f6g7h8",
-        "name_en": "Stanley Main Beach",
-        "name_zh": "赤柱正灘",
+        "id": "d17d8171",
+        "name_en": "Clear Water Bay Second Beach",
+        "name_zh": "清水湾第二湾泳滩",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CW2/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01555555555555,
+          22.298611111111114
+        ]
+      },
+      "properties": {
+        "id": "dfaee1b9",
+        "name_en": "Discovery Bay Tai Pak Beach",
+        "name_zh": "Discovery Bay Tai Pak Beach",
         "grade": 1,
-        "grade_label": { "en": "Good", "zh": "良好", "emoji": "🟢" },
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
         "color": "#00E676",
-        "link": "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss",
-        "updated": "Thu, 30 Apr 2026 08:00:00 +0800"
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/DB/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98805555555556,
+          22.372222222222224
+        ]
+      },
+      "properties": {
+        "id": "466b8a37",
+        "name_en": "Golden Beach",
+        "name_zh": "黄金海滩",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/GB/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.29583333333333,
+          22.356944444444444
+        ]
+      },
+      "properties": {
+        "id": "200fbfad",
+        "name_en": "Hap Mun Bay Beach",
+        "name_zh": "Hap Mun Bay Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HM/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07083333333333,
+          22.364722222222223
+        ]
+      },
+      "properties": {
+        "id": "314e1d96",
+        "name_en": "Hoi Mei Wan Beach",
+        "name_zh": "Hoi Mei Wan Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HOM/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11972222222222,
+          22.218888888888888
+        ]
+      },
+      "properties": {
+        "id": "63eeb9ae",
+        "name_en": "Hung Shing Yeh Beach",
+        "name_zh": "Hung Shing Yeh Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HSY/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98138888888889,
+          22.37666666666667
+        ]
+      },
+      "properties": {
+        "id": "59b01129",
+        "name_en": "Kadoorie Beach",
+        "name_zh": "Kadoorie Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/K/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28833333333333,
+          22.36777777777778
+        ]
+      },
+      "properties": {
+        "id": "f81b9b77",
+        "name_en": "Kiu Tsui Beach",
+        "name_zh": "Kiu Tsui Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/KT/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03444444444445,
+          22.20722222222222
+        ]
+      },
+      "properties": {
+        "id": "eb8bfdc7",
+        "name_en": "Kwun Yam Beach",
+        "name_zh": "Kwun Yam Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/KY/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0761111111111,
+          22.36777777777778
+        ]
+      },
+      "properties": {
+        "id": "e28a1077",
+        "name_en": "Lido Beach",
+        "name_zh": "Lido Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LIDO/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12277777777777,
+          22.204444444444444
+        ]
+      },
+      "properties": {
+        "id": "13abe54f",
+        "name_en": "Lo So Shing Beach",
+        "name_zh": "Lo So Shing Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LSS/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95527777777778,
+          22.234166666666667
+        ]
+      },
+      "properties": {
+        "id": "dba44ba6",
+        "name_en": "Lower Cheung Sha Beach",
+        "name_zh": "Lower Cheung Sha Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CSL/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06166666666667,
+          22.35027777777778
+        ]
+      },
+      "properties": {
+        "id": "fbbface0",
+        "name_en": "Ma Wan Tung Wan Beach",
+        "name_zh": "Ma Wan Tung Wan Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TWM/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19833333333334,
+          22.22972222222222
+        ]
+      },
+      "properties": {
+        "id": "6ad96a4e",
+        "name_en": "Middle Bay Beach",
+        "name_zh": "中湾泳滩",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/MB/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.97583333333334,
+          22.240000000000002
+        ]
+      },
+      "properties": {
+        "id": "60095f66",
+        "name_en": "Pui O Beach",
+        "name_zh": "杯澳泳滩",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/PO/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19611111111111,
+          22.236944444444447
+        ]
+      },
+      "properties": {
+        "id": "fbc76e7b",
+        "name_en": "Repulse Bay Beach",
+        "name_zh": "浅水湾泳滩",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/RB/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25055555555555,
+          22.22861111111111
+        ]
+      },
+      "properties": {
+        "id": "20091557",
+        "name_en": "Shek O Beach",
+        "name_zh": "Shek O Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SO/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99888888888889,
+          22.27027777777778
+        ]
+      },
+      "properties": {
+        "id": "c7d3da2c",
+        "name_en": "Silver Mine Bay Beach",
+        "name_zh": "Silver Mine Bay Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SIL/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27194444444444,
+          22.322777777777777
+        ]
+      },
+      "properties": {
+        "id": "e851b57e",
+        "name_en": "Silverstrand Beach",
+        "name_zh": "Silverstrand Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SS/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1975,
+          22.224999999999998
+        ]
+      },
+      "properties": {
+        "id": "15beeddb",
+        "name_en": "South Bay Beach",
+        "name_zh": "南湾泳滩",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SB/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.215,
+          22.21333333333333
+        ]
+      },
+      "properties": {
+        "id": "de309b41",
+        "name_en": "St. Stephen's Beach",
+        "name_zh": "St. Stephen's Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SST/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21388888888889,
+          22.22111111111111
+        ]
+      },
+      "properties": {
+        "id": "6583d84e",
+        "name_en": "Stanley Main Beach",
+        "name_zh": "赤柱正滩",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SM/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22722222222222,
+          22.47138888888889
+        ]
+      },
+      "properties": {
+        "id": "5ecf202e",
+        "name_en": "Tai Po Lung Mei Beach",
+        "name_zh": "Tai Po Lung Mei Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LMN/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07972222222222,
+          22.36916666666667
+        ]
+      },
+      "properties": {
+        "id": "3c93f7b8",
+        "name_en": "Ting Kau Beach",
+        "name_zh": "Ting Kau Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TK/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93527777777778,
+          22.228055555555553
+        ]
+      },
+      "properties": {
+        "id": "91bcfc1e",
+        "name_en": "Tong Fuk Beach",
+        "name_zh": "Tong Fuk Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TF/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.26777777777778,
+          22.35777777777778
+        ]
+      },
+      "properties": {
+        "id": "7ef11866",
+        "name_en": "Trio Beach",
+        "name_zh": "Trio Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TRIO/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22333333333333,
+          22.233055555555556
+        ]
+      },
+      "properties": {
+        "id": "d0b064e2",
+        "name_en": "Turtle Cove Beach",
+        "name_zh": "Turtle Cove Beach",
+        "grade": 2,
+        "grade_label": {
+          "en": "Fair",
+          "zh": "一般",
+          "emoji": "🟡"
+        },
+        "color": "#FFEB3B",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TC/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9413888888889,
+          22.230555555555554
+        ]
+      },
+      "properties": {
+        "id": "b7823099",
+        "name_en": "Upper Cheung Sha Beach",
+        "name_zh": "Upper Cheung Sha Beach",
+        "grade": 1,
+        "grade_label": {
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
+        },
+        "color": "#00E676",
+        "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CSU/?lang=en",
+        "updated": "Sat, 19 Sep 2026 10:52:13"
       }
     }
   ]

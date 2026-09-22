@@ -2,7 +2,7 @@
 """Fetch EPD Beach Water Quality RSS and convert to GeoJSON."""
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone
 import json
 import re
 import hashlib
@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger(__name__)
 
 RSS_URL = "https://cd.epic.epd.gov.hk/beachpsi/en/beach2.rss"
-OUTPUT_FILE = "beach_data.geojson"
+OUTPUT_FILE = "public/beach_data.geojson"
 
 # Chinese name mapping for Hong Kong beaches (EPD uses English names)
 BEACH_NAMES_ZH = {
@@ -75,23 +75,18 @@ def parse_rss():
         grade = int(grade_text.group(1)) if grade_text else 0
 
         # Parse description HTML table for coordinates
-        # Format: Latitude 22 21 53N or Latitude 22 21 53 N
-        lat_match = re.search(r'Latitude.*?(\d+)\s+(\d+)\s+(\d+(?:\.\d+)?)\s*[NS]', desc_html, re.IGNORECASE | re.DOTALL)
-        lon_match = re.search(r'Longitude.*?(\d+)\s+(\d+)\s+(\d+(?:\.\d+)?)\s*[EW]', desc_html, re.IGNORECASE | re.DOTALL)
-
-        lat, lon = None, None
-        if lat_match:
-            deg, min_, sec = lat_match.groups()
-            lat = float(deg) + float(min_)/60 + float(sec)/3600
-            # Make positive for South
-            if 'S' in lat_match.group(0).upper():
-                lat = -lat
-        if lon_match:
-            deg, min_, sec = lon_match.groups()
-            lon = float(deg) + float(min_)/60 + float(sec)/3600
-            # Make negative for West
-            if 'W' in lon_match.group(0).upper():
-                lon = -lon
+        # Format now: 22° 21' 53" (degree/minute/second symbols) or 22 21 53
+        # Latitude bit: Latitude (N): 22° 21' 53"
+        # Parse description HTML: table with Northing/Easting + Latitude/Longitude (WGS84)
+        # Lat appears before lon in HTML. Grab all DMS pairs like "22° 21' 53""
+        dms_matches = re.findall(r'(\d+)\s*°\s*(\d+)\s*\'\s*(\d+(?:\.\d+)?)\s*"', desc_html)
+        lat = lon = None
+        if len(dms_matches) >= 1:
+            deg, mnt, sec = dms_matches[0]
+            lat = float(deg) + float(mnt)/60 + float(sec)/3600
+        if len(dms_matches) >= 2:
+            deg, mnt, sec = dms_matches[1]
+            lon = float(deg) + float(mnt)/60 + float(sec)/3600
 
         if lat and lon:
             # Multi-language grade labels
@@ -136,7 +131,7 @@ def main():
         "type": "FeatureCollection",
         "metadata": {
             "source": "EPD Beach Water Quality RSS",
-            "updated": datetime.utcnow().isoformat() + "Z",
+            "updated": datetime.now(timezone.utc).isoformat() + "Z",
             "count": len(features),
             "version": "2.0"
         },
