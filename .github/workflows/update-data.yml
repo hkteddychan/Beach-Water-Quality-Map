@@ -3,7 +3,7 @@ name: Update Beach Water Quality Data
 on:
   schedule:
     # Every day at 08:30 HKT (00:30 UTC) — EPD updates water quality weekly, daily keeps it fresh
-    - cron: '30 0 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
