@@ -37,3 +37,5 @@ jobs:
           commit_message: 'chore: daily update beach water quality data'
           file_pattern: public/beach_data.geojson
           skip_dirty: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
