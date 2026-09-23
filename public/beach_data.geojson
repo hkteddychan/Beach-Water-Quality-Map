@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "source": "EPD Beach Water Quality RSS",
-    "updated": "2026-09-23T01:33:53.104433+00:00Z",
+    "updated": "2026-09-23T06:50:00.253614+00:00Z",
     "count": 39,
     "version": "2.0"
   },
@@ -28,7 +28,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/ANG/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -52,7 +52,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/APP/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -76,7 +76,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/BW/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -100,7 +100,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/B/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -116,15 +116,15 @@
         "id": "eb5bd2c1",
         "name_en": "Cafeteria New Beach",
         "name_zh": "Cafeteria New Beach",
-        "grade": 2,
+        "grade": 1,
         "grade_label": {
-          "en": "Fair",
-          "zh": "一般",
-          "emoji": "🟡"
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
         },
-        "color": "#FFEB3B",
+        "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/NC/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -148,7 +148,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/OC/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -172,7 +172,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CAS/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -196,7 +196,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CP/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -220,7 +220,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TW/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -244,7 +244,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CHK/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -268,7 +268,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CW1/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -292,7 +292,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CW2/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -316,7 +316,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/DB/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -332,15 +332,15 @@
         "id": "466b8a37",
         "name_en": "Golden Beach",
         "name_zh": "黄金海滩",
-        "grade": 2,
+        "grade": 1,
         "grade_label": {
-          "en": "Fair",
-          "zh": "一般",
-          "emoji": "🟡"
+          "en": "Good",
+          "zh": "良好",
+          "emoji": "🟢"
         },
-        "color": "#FFEB3B",
+        "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/GB/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -364,7 +364,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HM/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -388,7 +388,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HOM/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -412,7 +412,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/HSY/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -436,7 +436,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/K/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -460,7 +460,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/KT/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -484,7 +484,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/KY/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -508,7 +508,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LIDO/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -532,7 +532,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LSS/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -556,7 +556,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CSL/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -580,7 +580,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TWM/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -604,7 +604,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/MB/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -628,7 +628,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/PO/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -652,7 +652,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/RB/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -676,7 +676,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SO/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -700,7 +700,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SIL/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -724,7 +724,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SS/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -748,7 +748,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SB/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -772,7 +772,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SST/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -796,7 +796,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/SM/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -820,7 +820,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/LMN/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -844,7 +844,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TK/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -868,7 +868,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TF/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -892,7 +892,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TRIO/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -916,7 +916,7 @@
         },
         "color": "#FFEB3B",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/TC/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     },
     {
@@ -940,7 +940,7 @@
         },
         "color": "#00E676",
         "link": "https://cd.epic.epd.gov.hk/EPICDI/beach/gradingreport/CSU/?lang=en",
-        "updated": "Sat, 19 Sep 2026 10:52:13"
+        "updated": "Wed, 23 Sep 2026 09:54:58"
       }
     }
   ]
